@@ -1,0 +1,212 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="false"
+        jar="C:\Users\kanav\Desktop\android-vision\visionSamples\ocr-reader\app\build\intermediates\exploded-aar\com.android.support\support-v4\24.2.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="45f5eda279825ff470e3f51019d374d1ef61e000">
+        <dex dex="C:\Users\kanav\Desktop\android-vision\visionSamples\ocr-reader\app\build\intermediates\pre-dexed\debug\com.android.support-support-v4-24.2.0_df97d8cb9023d6f035f5502e547fa925cb2e22cf.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\kanav\Desktop\android-vision\visionSamples\ocr-reader\app\build\intermediates\exploded-aar\com.android.support\support-core-utils\24.2.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="fcc945a86ebcbf527429acb8216ec7dae2c06417">
+        <dex dex="C:\Users\kanav\Desktop\android-vision\visionSamples\ocr-reader\app\build\intermediates\pre-dexed\debug\com.android.support-support-core-utils-24.2.0_4b8554264c990bbc105f844c76a93ca1baeccd9c.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\Android\Android Studio\gradle\m2repository\com\google\guava\guava\18.0\guava-18.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="cce0823396aa693798f8882e64213b1772032b09">
+        <dex dex="C:\Users\kanav\Desktop\android-vision\visionSamples\ocr-reader\app\build\intermediates\pre-dexed\debug\guava-18.0_b9919f0b8ba8c1e7667082b5461b5ab7221638fa.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\kanav\Desktop\android-vision\visionSamples\ocr-reader\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-base\10.2.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="3d13e510077b35fe8e49930a627dd849ad5da0dc">
+        <dex dex="C:\Users\kanav\Desktop\android-vision\visionSamples\ocr-reader\app\build\intermediates\pre-dexed\debug\com.google.android.gms-play-services-base-10.2.0_e48c3f0d33ae9043fe8c66a58bd3d3d8408215d0.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\kanav\Desktop\android-vision\visionSamples\ocr-reader\app\build\intermediates\exploded-aar\com.android.support\support-media-compat\24.2.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="6eb9107eb34d2fe2b020662b7fbbec991dcba846">
+        <dex dex="C:\Users\kanav\Desktop\android-vision\visionSamples\ocr-reader\app\build\intermediates\pre-dexed\debug\com.android.support-support-media-compat-24.2.0_cec950b8a281ed7d85712a109871ba101e1ed6e9.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\kanav\Desktop\android-vision\visionSamples\ocr-reader\app\build\intermediates\exploded-aar\com.github.satyan\sugar\1.4\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="ac045b53684345f4ec8468477e8fc5034d0d2bfd">
+        <dex dex="C:\Users\kanav\Desktop\android-vision\visionSamples\ocr-reader\app\build\intermediates\pre-dexed\debug\com.github.satyan-sugar-1.4_622cc022d810584dc8d94535fc20bcc6ac01cd8a.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\kanav\Desktop\android-vision\visionSamples\ocr-reader\app\build\intermediates\exploded-aar\com.android.support\recyclerview-v7\24.2.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="c755536e5a100d9c76c8ea0b72f76c018f7a9de2">
+        <dex dex="C:\Users\kanav\Desktop\android-vision\visionSamples\ocr-reader\app\build\intermediates\pre-dexed\debug\com.android.support-recyclerview-v7-24.2.0_c5a84c7bf8de4d6298494496c75413bfcaafe5fd.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\kanav\Desktop\android-vision\visionSamples\ocr-reader\app\build\intermediates\exploded-aar\com.android.support\support-core-ui\24.2.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="c84e216d9bf618464d6b9564d71d9a656433e7c4">
+        <dex dex="C:\Users\kanav\Desktop\android-vision\visionSamples\ocr-reader\app\build\intermediates\pre-dexed\debug\com.android.support-support-core-ui-24.2.0_f1e82535f83cb28abb5680eb7142cb6d4b36cc0a.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\kanav\AppData\Local\Android\Sdk\extras\android\m2repository\com\android\support\support-annotations\24.2.0\support-annotations-24.2.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="6be858a75633b1f0a2d24cad740db57775cb6871">
+        <dex dex="C:\Users\kanav\Desktop\android-vision\visionSamples\ocr-reader\app\build\intermediates\pre-dexed\debug\support-annotations-24.2.0_6d9d6b9fe6ec7df0586eff2183e2e212505417b2.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\kanav\Desktop\android-vision\visionSamples\ocr-reader\app\build\intermediates\exploded-aar\com.android.support\support-media-compat\24.2.0\jars\libs\internal_impl-24.2.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="045be695d968dd707691cc55d23746dbf8cf569a">
+        <dex dex="C:\Users\kanav\Desktop\android-vision\visionSamples\ocr-reader\app\build\intermediates\pre-dexed\debug\internal_impl-24.2.0_614508709e56d538aa87910d6d818498fde5f928.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\kanav\Desktop\android-vision\visionSamples\ocr-reader\app\build\intermediates\exploded-aar\com.android.support\design\24.2.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="23eb0d2998a782213b56168cbf23a0688b9111d9">
+        <dex dex="C:\Users\kanav\Desktop\android-vision\visionSamples\ocr-reader\app\build\intermediates\pre-dexed\debug\com.android.support-design-24.2.0_b8746b5d52b5771198e77c0b6ee88406610de85f.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\kanav\Desktop\android-vision\visionSamples\ocr-reader\app\build\intermediates\exploded-aar\com.android.support\support-fragment\24.2.0\jars\libs\internal_impl-24.2.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="032a4b53def5e2ceedfc2e793b126c0163cfa1dd">
+        <dex dex="C:\Users\kanav\Desktop\android-vision\visionSamples\ocr-reader\app\build\intermediates\pre-dexed\debug\internal_impl-24.2.0_e00bd5ded44ab2b1cd0459562bfcba0b51c6c689.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\kanav\Desktop\android-vision\visionSamples\ocr-reader\app\build\intermediates\exploded-aar\com.android.support\support-compat\24.2.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="f9b41622897665678d31d78e57a361cb0cebcb0d">
+        <dex dex="C:\Users\kanav\Desktop\android-vision\visionSamples\ocr-reader\app\build\intermediates\pre-dexed\debug\com.android.support-support-compat-24.2.0_f57459914518cb806b0342cdea2b705ed473aba2.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\kanav\Desktop\android-vision\visionSamples\ocr-reader\app\build\intermediates\exploded-aar\com.android.support\support-core-utils\24.2.0\jars\libs\internal_impl-24.2.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="60d7b23621d31e6f42f4f76f16af467e57a20cda">
+        <dex dex="C:\Users\kanav\Desktop\android-vision\visionSamples\ocr-reader\app\build\intermediates\pre-dexed\debug\internal_impl-24.2.0_64c1117e28f74514e2c31daea4ca41b715a2cb73.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\kanav\Desktop\android-vision\visionSamples\ocr-reader\app\build\intermediates\exploded-aar\com.android.support\animated-vector-drawable\24.2.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="f3ee23ef25c9a8fe3d40246d0b7097267963a612">
+        <dex dex="C:\Users\kanav\Desktop\android-vision\visionSamples\ocr-reader\app\build\intermediates\pre-dexed\debug\com.android.support-animated-vector-drawable-24.2.0_a0c92ed1b5fc772e12440669e6a23bf2cbeb4ebb.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\kanav\Desktop\android-vision\visionSamples\ocr-reader\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-tasks\10.2.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="bd75f9f0296fe220da6d0ad961831b04541c4452">
+        <dex dex="C:\Users\kanav\Desktop\android-vision\visionSamples\ocr-reader\app\build\intermediates\pre-dexed\debug\com.google.android.gms-play-services-tasks-10.2.0_71ddfa3d4ebaf718742cec00a67ec875b364b701.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\kanav\Desktop\android-vision\visionSamples\ocr-reader\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\24.2.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="c3c638be6e650b165ab9ae144857b64e82787fad">
+        <dex dex="C:\Users\kanav\Desktop\android-vision\visionSamples\ocr-reader\app\build\intermediates\pre-dexed\debug\com.android.support-appcompat-v7-24.2.0_7fa9929d62d778d6e791c37cf05a54a6ac7f2f89.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\kanav\Desktop\android-vision\visionSamples\ocr-reader\app\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\24.2.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="beac40bcc8a320a896dd15f5109cfcaea5e1e0e3">
+        <dex dex="C:\Users\kanav\Desktop\android-vision\visionSamples\ocr-reader\app\build\intermediates\pre-dexed\debug\com.android.support-support-vector-drawable-24.2.0_aff5bca9f44b403d3a9b54573a224551ce8bd0cc.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\kanav\Desktop\android-vision\visionSamples\ocr-reader\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\10.2.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="1ac56e5801e986583cbe27f2cce57f626cc7ff93">
+        <dex dex="C:\Users\kanav\Desktop\android-vision\visionSamples\ocr-reader\app\build\intermediates\pre-dexed\debug\com.google.android.gms-play-services-basement-10.2.0_2cc160635200d7a346662122a683e276f995dd98.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\kanav\Desktop\android-vision\visionSamples\ocr-reader\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-vision\10.2.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="444f9de23145e8caba7bf1c1772acad142ea6013">
+        <dex dex="C:\Users\kanav\Desktop\android-vision\visionSamples\ocr-reader\app\build\intermediates\pre-dexed\debug\com.google.android.gms-play-services-vision-10.2.0_94231efe35195183ffba585f4296fc19bf8394f9.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\kanav\Desktop\android-vision\visionSamples\ocr-reader\app\build\intermediates\exploded-aar\com.android.support\support-core-ui\24.2.0\jars\libs\internal_impl-24.2.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="6e02e34594ebe9c0501ffda8dd48497f81b82977">
+        <dex dex="C:\Users\kanav\Desktop\android-vision\visionSamples\ocr-reader\app\build\intermediates\pre-dexed\debug\internal_impl-24.2.0_75bb17d764ea5586fb8e27fef5326768bb808b5b.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\kanav\Desktop\android-vision\visionSamples\ocr-reader\app\build\intermediates\exploded-aar\com.android.support\support-compat\24.2.0\jars\libs\internal_impl-24.2.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="771b3cc0e597b54da25f8086ba73180c59c6bc71">
+        <dex dex="C:\Users\kanav\Desktop\android-vision\visionSamples\ocr-reader\app\build\intermediates\pre-dexed\debug\internal_impl-24.2.0_a34478c10f85c05ef51361f2d9e35d9391ec2b56.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\kanav\Desktop\android-vision\visionSamples\ocr-reader\app\build\intermediates\exploded-aar\com.android.support\support-fragment\24.2.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="d8bd2268fdcbfd52c76ade65d9900cd8def93a44">
+        <dex dex="C:\Users\kanav\Desktop\android-vision\visionSamples\ocr-reader\app\build\intermediates\pre-dexed\debug\com.android.support-support-fragment-24.2.0_58bcdfb5f4329a16335c7d018acae476c39553fe.jar" />
+    </item>
+
+</items>

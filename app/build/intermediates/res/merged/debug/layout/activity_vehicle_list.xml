@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_vehicle_list"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.google.android.gms.samples.vision.ocrreader.VehicleListView.VehicleListActivity">
+    <fragment
+        android:tag="listFragment"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        class="com.google.android.gms.samples.vision.ocrreader.VehicleListView.VehicleFragment"
+        android:name="com.google.android.gms.samples.vision.ocrreader.VehicleListView.VehicleFragment"/>
+
+</RelativeLayout>
