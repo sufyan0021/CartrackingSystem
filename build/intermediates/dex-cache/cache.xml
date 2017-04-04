@@ -2,229 +2,220 @@
 <items version="2" >
 
     <item
-        is-multidex="true"
-        jar="C:\Users\Public\AndroidProjects\ocr-reader\app\build\intermediates\exploded-aar\com.android.support\support-core-utils\24.2.0\jars\libs\internal_impl-24.2.0.jar"
-        jumboMode="true"
+        is-multidex="false"
+        jar="/home/ajitesh/.android/build-cache/2475a18c77822567336c95377b2cda5261c61b27/output/jars/classes.jar"
+        jumboMode="false"
         optimize="true"
-        revision="23.0.1"
-        sha1="60d7b23621d31e6f42f4f76f16af467e57a20cda">
-        <dex dex="C:\Users\Public\AndroidProjects\ocr-reader\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-24.2.0_e9c4cd150b91a2a6bdfde20edd14135629bdd0c2\classes.dex" />
+        revision="25.0.0"
+        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
+        <dex dex="/home/ajitesh/Documents/CartrackingSystem/app/build/intermediates/pre-dexed/debug/classes_079a2f44ba8f43e6861faf811fadf6f4df8a8d4a.jar" />
     </item>
     <item
-        is-multidex="true"
-        jar="C:\Users\Public\AndroidProjects\ocr-reader\app\build\intermediates\exploded-aar\com.github.satyan\sugar\1.4\jars\classes.jar"
-        jumboMode="true"
+        is-multidex="false"
+        jar="/home/ajitesh/.android/build-cache/c148b4b3504a0f155fc9709d5eb485ead6d7934b/output/jars/classes.jar"
+        jumboMode="false"
         optimize="true"
-        revision="23.0.1"
-        sha1="ac045b53684345f4ec8468477e8fc5034d0d2bfd">
-        <dex dex="C:\Users\Public\AndroidProjects\ocr-reader\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.github.satyan-sugar-1.4_39bb759c37d33f867b71746cd7ca4d42fbedc261\classes.dex" />
+        revision="25.0.0"
+        sha1="19696dc358ac668e341f28c41e3387d61ccdb81d">
+        <dex dex="/home/ajitesh/Documents/CartrackingSystem/app/build/intermediates/pre-dexed/debug/classes_dddcceb02bc133939075e671acdff4da9d3b1015.jar" />
     </item>
     <item
-        is-multidex="true"
-        jar="C:\Users\Public\AndroidProjects\ocr-reader\app\build\intermediates\exploded-aar\com.android.support\support-core-ui\24.2.0\jars\classes.jar"
-        jumboMode="true"
+        is-multidex="false"
+        jar="/home/ajitesh/.android/build-cache/d0019cb46d0c9236ed327ee0da1e1cc0b8109f3c/output/jars/classes.jar"
+        jumboMode="false"
         optimize="true"
-        revision="23.0.1"
-        sha1="c84e216d9bf618464d6b9564d71d9a656433e7c4">
-        <dex dex="C:\Users\Public\AndroidProjects\ocr-reader\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-core-ui-24.2.0_9083a9c474339e0bcc31d747f064bb964212a40f\classes.dex" />
+        revision="25.0.0"
+        sha1="bdcc2a9572f18b8c90a3a157cab6cdfc97c6c736">
+        <dex dex="/home/ajitesh/Documents/CartrackingSystem/app/build/intermediates/pre-dexed/debug/classes_4ba3a61a3dea68808f547593ac1a00ab451b7142.jar" />
     </item>
     <item
-        is-multidex="true"
-        jar="C:\Users\Public\AndroidProjects\ocr-reader\app\build\intermediates\exploded-aar\com.android.support\support-media-compat\24.2.0\jars\classes.jar"
-        jumboMode="true"
+        is-multidex="false"
+        jar="/home/ajitesh/.android/build-cache/eaf60c04d9addc586bcae12379124da3e127de6a/output/jars/classes.jar"
+        jumboMode="false"
         optimize="true"
-        revision="23.0.1"
-        sha1="6eb9107eb34d2fe2b020662b7fbbec991dcba846">
-        <dex dex="C:\Users\Public\AndroidProjects\ocr-reader\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-media-compat-24.2.0_adf578c1d42c083871c60f992269c42ddf6a810d\classes.dex" />
+        revision="25.0.0"
+        sha1="38789e20ace9ab7dbd00554bd2673ab424478d3b">
+        <dex dex="/home/ajitesh/Documents/CartrackingSystem/app/build/intermediates/pre-dexed/debug/classes_6abefa56613885ab0c59b012405f2916f750c2d8.jar" />
     </item>
     <item
-        is-multidex="true"
-        jar="C:\Users\Public\AndroidProjects\ocr-reader\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-base\10.2.0\jars\classes.jar"
-        jumboMode="true"
+        is-multidex="false"
+        jar="/usr/local/android-studio/gradle/m2repository/com/google/guava/guava/18.0/guava-18.0.jar"
+        jumboMode="false"
         optimize="true"
-        revision="23.0.1"
-        sha1="3d13e510077b35fe8e49930a627dd849ad5da0dc">
-        <dex dex="C:\Users\Public\AndroidProjects\ocr-reader\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-base-10.2.0_feed4a3945e09198e9733f94f74b22b843392b64\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\Public\AndroidProjects\ocr-reader\app\build\intermediates\exploded-aar\com.android.support\support-core-utils\24.2.0\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="23.0.1"
-        sha1="fcc945a86ebcbf527429acb8216ec7dae2c06417">
-        <dex dex="C:\Users\Public\AndroidProjects\ocr-reader\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-core-utils-24.2.0_aabaf4eaa50fb0d2628f1185f1f5656745fdb1cd\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\Public\AndroidProjects\ocr-reader\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-vision\10.2.0\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="23.0.1"
-        sha1="444f9de23145e8caba7bf1c1772acad142ea6013">
-        <dex dex="C:\Users\Public\AndroidProjects\ocr-reader\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-vision-10.2.0_3b01ab4a0b551f379bc0f451b4157ea51345e903\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\Public\AndroidProjects\ocr-reader\app\build\intermediates\exploded-aar\com.android.support\support-v4\24.2.0\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="23.0.1"
-        sha1="45f5eda279825ff470e3f51019d374d1ef61e000">
-        <dex dex="C:\Users\Public\AndroidProjects\ocr-reader\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-v4-24.2.0_6d29c4cd28f26a3189d30dc50979905a2e65b163\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\Public\AndroidProjects\ocr-reader\app\build\intermediates\exploded-aar\com.android.support\support-compat\24.2.0\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="23.0.1"
-        sha1="f9b41622897665678d31d78e57a361cb0cebcb0d">
-        <dex dex="C:\Users\Public\AndroidProjects\ocr-reader\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-compat-24.2.0_8e8d3f5caff8a9c188ffd49ba469f95e3b842086\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Program Files\Android\Android Studio\gradle\m2repository\com\google\guava\guava\18.0\guava-18.0.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="23.0.1"
+        revision="25.0.0"
         sha1="cce0823396aa693798f8882e64213b1772032b09">
-        <dex dex="C:\Users\Public\AndroidProjects\ocr-reader\app\build\intermediates\transforms\dex\debug\folders\1000\10\guava-18.0_23ae9d619c9ad952ac11ce7bff78df802e3e98c2\classes.dex" />
+        <dex dex="/home/ajitesh/Documents/CartrackingSystem/app/build/intermediates/pre-dexed/debug/guava-18.0_e40471865835b7c50372e443685283dd5acf6433.jar" />
     </item>
     <item
-        is-multidex="true"
-        jar="C:\Users\Public\AndroidProjects\ocr-reader\app\build\intermediates\exploded-aar\com.android.support\design\24.2.0\jars\classes.jar"
-        jumboMode="true"
+        is-multidex="false"
+        jar="/home/ajitesh/.android/build-cache/d2e90174999b2b73a7ce7f8a150cce8d68050c48/output/jars/classes.jar"
+        jumboMode="false"
         optimize="true"
-        revision="23.0.1"
-        sha1="23eb0d2998a782213b56168cbf23a0688b9111d9">
-        <dex dex="C:\Users\Public\AndroidProjects\ocr-reader\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-design-24.2.0_e5d54d4b58902d9118f1d76a6eff5f9aa18e324f\classes.dex" />
+        revision="25.0.0"
+        sha1="47635644d0d5c103c1dd8360549eb9ba3225c7d3">
+        <dex dex="/home/ajitesh/Documents/CartrackingSystem/app/build/intermediates/pre-dexed/debug/classes_641b53efacfedfd98f26ff2cab5af6807a63c233.jar" />
     </item>
     <item
-        is-multidex="true"
-        jar="C:\Users\Public\AndroidProjects\ocr-reader\app\build\intermediates\exploded-aar\com.android.support\support-fragment\24.2.0\jars\libs\internal_impl-24.2.0.jar"
-        jumboMode="true"
+        is-multidex="false"
+        jar="/home/ajitesh/.android/build-cache/93a4f4357837eb4d1fc5bacc95ba91d775463b0a/output/jars/classes.jar"
+        jumboMode="false"
         optimize="true"
-        revision="23.0.1"
-        sha1="032a4b53def5e2ceedfc2e793b126c0163cfa1dd">
-        <dex dex="C:\Users\Public\AndroidProjects\ocr-reader\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-24.2.0_294013afa819e15271576590d90bf56d92d9de65\classes.dex" />
+        revision="25.0.0"
+        sha1="052f5f840f21174a3ecf6544130194e2652cbb73">
+        <dex dex="/home/ajitesh/Documents/CartrackingSystem/app/build/intermediates/pre-dexed/debug/classes_a08e45d7d2408a4f4fd05c208d6af91beaa9764a.jar" />
     </item>
     <item
-        is-multidex="true"
-        jar="C:\Users\Public\AndroidProjects\ocr-reader\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-tasks\10.2.0\jars\classes.jar"
-        jumboMode="true"
+        is-multidex="false"
+        jar="/home/ajitesh/.android/build-cache/d8b7f301cb9e9ad7edacf60a126fa787ebe43d96/output/jars/classes.jar"
+        jumboMode="false"
         optimize="true"
-        revision="23.0.1"
-        sha1="bd75f9f0296fe220da6d0ad961831b04541c4452">
-        <dex dex="C:\Users\Public\AndroidProjects\ocr-reader\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-tasks-10.2.0_5603f310bf43ab9bdb71a89e5feb42559ed2d4ab\classes.dex" />
+        revision="25.0.0"
+        sha1="ac045b53684345f4ec8468477e8fc5034d0d2bfd">
+        <dex dex="/home/ajitesh/Documents/CartrackingSystem/app/build/intermediates/pre-dexed/debug/classes_d3dc6272dd19f2ea5b408e6929a67144e110bf09.jar" />
     </item>
     <item
-        is-multidex="true"
-        jar="C:\Users\Public\AndroidProjects\ocr-reader\app\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\24.2.0\jars\classes.jar"
-        jumboMode="true"
+        is-multidex="false"
+        jar="/home/ajitesh/.android/build-cache/ead77886909600df7c8896b4addf7fbc8fc67010/output/jars/classes.jar"
+        jumboMode="false"
         optimize="true"
-        revision="23.0.1"
-        sha1="beac40bcc8a320a896dd15f5109cfcaea5e1e0e3">
-        <dex dex="C:\Users\Public\AndroidProjects\ocr-reader\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-vector-drawable-24.2.0_9b70794fa46f620ee43d051b694a1b06ef115be1\classes.dex" />
+        revision="25.0.0"
+        sha1="67dbc6602a0eb36bd16bb2f40074456fac7cc558">
+        <dex dex="/home/ajitesh/Documents/CartrackingSystem/app/build/intermediates/pre-dexed/debug/classes_f21a910d090d14ba5becf53cb9790410ac4d802a.jar" />
     </item>
     <item
-        is-multidex="true"
-        jar="C:\Users\Public\AndroidProjects\ocr-reader\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
-        jumboMode="true"
+        is-multidex="false"
+        jar="/home/ajitesh/.android/build-cache/2f83d61533cc859db04d5eb5bfd72a01e6dd056d/output/jars/classes.jar"
+        jumboMode="false"
         optimize="true"
-        revision="23.0.1"
-        sha1="6d763067de1888e17e28af65c1b1ff871b86ef87">
-        <dex dex="C:\Users\Public\AndroidProjects\ocr-reader\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run_37d7c4ba15655d1f47609ebe753c352583496b29\classes.dex" />
+        revision="25.0.0"
+        sha1="aa81bfe8c5cc88c2472ca936ae71f0c3dd1766df">
+        <dex dex="/home/ajitesh/Documents/CartrackingSystem/app/build/intermediates/pre-dexed/debug/classes_58d572d8aa8d87daf060f80e183b963564b94db8.jar" />
     </item>
     <item
-        is-multidex="true"
-        jar="C:\Users\Public\AndroidProjects\ocr-reader\app\build\intermediates\exploded-aar\com.android.support\support-compat\24.2.0\jars\libs\internal_impl-24.2.0.jar"
-        jumboMode="true"
+        is-multidex="false"
+        jar="/home/ajitesh/.android/build-cache/eed4f87ea574dda33b9f7720b68e23f933c21ae8/output/jars/classes.jar"
+        jumboMode="false"
         optimize="true"
-        revision="23.0.1"
-        sha1="771b3cc0e597b54da25f8086ba73180c59c6bc71">
-        <dex dex="C:\Users\Public\AndroidProjects\ocr-reader\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-24.2.0_b440466a69d015e664b3aa34a09866f61a2b028b\classes.dex" />
+        revision="25.0.0"
+        sha1="95519720620b553f63afc789beba9ad582807f7c">
+        <dex dex="/home/ajitesh/Documents/CartrackingSystem/app/build/intermediates/pre-dexed/debug/classes_2116f4a96ea7eb40d4f745aa5641d3d9804e2350.jar" />
     </item>
     <item
-        is-multidex="true"
-        jar="C:\Users\Public\AndroidProjects\ocr-reader\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\10.2.0\jars\classes.jar"
-        jumboMode="true"
+        is-multidex="false"
+        jar="/home/ajitesh/.android/build-cache/28e9ecde184a06e6220d357156abbc36f605a4e2/output/jars/classes.jar"
+        jumboMode="false"
         optimize="true"
-        revision="23.0.1"
-        sha1="1ac56e5801e986583cbe27f2cce57f626cc7ff93">
-        <dex dex="C:\Users\Public\AndroidProjects\ocr-reader\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-basement-10.2.0_56c73d16f0a4bc77ceaae3a22b3867bef4510f74\classes.dex" />
+        revision="25.0.0"
+        sha1="150252b33b00274cc868578ade018fda0d43a3eb">
+        <dex dex="/home/ajitesh/Documents/CartrackingSystem/app/build/intermediates/pre-dexed/debug/classes_68cb4de5e886666547f2213cf97a56b572e43229.jar" />
     </item>
     <item
-        is-multidex="true"
-        jar="C:\Users\Public\AndroidProjects\ocr-reader\app\build\intermediates\exploded-aar\com.android.support\support-fragment\24.2.0\jars\classes.jar"
-        jumboMode="true"
+        is-multidex="false"
+        jar="/home/ajitesh/.gradle/caches/modules-2/files-2.1/io.reactivex/rxjava/1.0.14/898f9ab61e2a23afd615f0b0389478bec86f49f9/rxjava-1.0.14.jar"
+        jumboMode="false"
         optimize="true"
-        revision="23.0.1"
-        sha1="d8bd2268fdcbfd52c76ade65d9900cd8def93a44">
-        <dex dex="C:\Users\Public\AndroidProjects\ocr-reader\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-fragment-24.2.0_d5ffb7efbd278d17571cc1f99c58741e9bee19d8\classes.dex" />
+        revision="25.0.0"
+        sha1="898f9ab61e2a23afd615f0b0389478bec86f49f9">
+        <dex dex="/home/ajitesh/Documents/CartrackingSystem/app/build/intermediates/pre-dexed/debug/rxjava-1.0.14_81e8f06d012f4e5e2fe8e79934416eec12ce3f12.jar" />
     </item>
     <item
-        is-multidex="true"
-        jar="C:\Users\Public\AndroidProjects\ocr-reader\app\build\intermediates\exploded-aar\com.android.support\support-media-compat\24.2.0\jars\libs\internal_impl-24.2.0.jar"
-        jumboMode="true"
+        is-multidex="false"
+        jar="/home/ajitesh/.android/build-cache/7f06f141f2a22bce7d24de741dccd747da4b4a50/output/jars/classes.jar"
+        jumboMode="false"
         optimize="true"
-        revision="23.0.1"
-        sha1="045be695d968dd707691cc55d23746dbf8cf569a">
-        <dex dex="C:\Users\Public\AndroidProjects\ocr-reader\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-24.2.0_1072baf656da2f13709b7ee03572353fa3eff014\classes.dex" />
+        revision="25.0.0"
+        sha1="45f697922e6f072daa12f8a2995dc77ab03c11da">
+        <dex dex="/home/ajitesh/Documents/CartrackingSystem/app/build/intermediates/pre-dexed/debug/classes_bcb9c9185585c6c0565289009fe0b8ee180b0b0d.jar" />
     </item>
     <item
-        is-multidex="true"
-        jar="C:\Users\Public\AndroidProjects\ocr-reader\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\24.2.0\jars\classes.jar"
-        jumboMode="true"
+        is-multidex="false"
+        jar="/home/ajitesh/.android/build-cache/0f7e02d8317126eb6617de51aa8e5d5ea4e6c1e0/output/jars/classes.jar"
+        jumboMode="false"
         optimize="true"
-        revision="23.0.1"
-        sha1="c3c638be6e650b165ab9ae144857b64e82787fad">
-        <dex dex="C:\Users\Public\AndroidProjects\ocr-reader\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-appcompat-v7-24.2.0_9b431bc67b599077df42aba708353f52e99fd5ae\classes.dex" />
+        revision="25.0.0"
+        sha1="68157e50f683ba508084da9d97c799bdbb72ad30">
+        <dex dex="/home/ajitesh/Documents/CartrackingSystem/app/build/intermediates/pre-dexed/debug/classes_3f899f6d5c2fd5ba1d291fd6ccbe21e87c5040b2.jar" />
     </item>
     <item
-        is-multidex="true"
-        jar="C:\Users\Public\AndroidProjects\ocr-reader\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
-        jumboMode="true"
+        is-multidex="false"
+        jar="/home/ajitesh/.android/build-cache/5e93947f8398afe7f4a730bf2326ca4930be8920/output/jars/classes.jar"
+        jumboMode="false"
         optimize="true"
-        revision="23.0.1"
-        sha1="2a90b813e0ad44d2125a52dfb61839d8329852e2">
-        <dex dex="C:\Users\Public\AndroidProjects\ocr-reader\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run-bootstrap_b26a8f0d928b43c88aa6cf07cfec72d577834037\classes.dex" />
+        revision="25.0.0"
+        sha1="6ef31f1555bb4cc513ec8d52711365a8b89f3600">
+        <dex dex="/home/ajitesh/Documents/CartrackingSystem/app/build/intermediates/pre-dexed/debug/classes_358a0339fdbb69773d3e771258abb3bc51946f4a.jar" />
     </item>
     <item
-        is-multidex="true"
-        jar="C:\Users\Public\AndroidProjects\ocr-reader\app\build\intermediates\exploded-aar\com.android.support\support-core-ui\24.2.0\jars\libs\internal_impl-24.2.0.jar"
-        jumboMode="true"
+        is-multidex="false"
+        jar="/home/ajitesh/.android/build-cache/e982b69cdf0db94828c0cf449dc0640696e4edfd/output/jars/classes.jar"
+        jumboMode="false"
         optimize="true"
-        revision="23.0.1"
-        sha1="6e02e34594ebe9c0501ffda8dd48497f81b82977">
-        <dex dex="C:\Users\Public\AndroidProjects\ocr-reader\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-24.2.0_16ce48ab881dd91428324640b10512ff0bed5065\classes.dex" />
+        revision="25.0.0"
+        sha1="efb8cb62d47d157c29d1521daac7eefd4cb881ee">
+        <dex dex="/home/ajitesh/Documents/CartrackingSystem/app/build/intermediates/pre-dexed/debug/classes_9939f9f684dabbfedfd5d94d0fd0194467ccb116.jar" />
     </item>
     <item
-        is-multidex="true"
-        jar="C:\Users\Public\AndroidProjects\ocr-reader\app\build\intermediates\exploded-aar\com.android.support\recyclerview-v7\24.2.0\jars\classes.jar"
-        jumboMode="true"
+        is-multidex="false"
+        jar="/home/ajitesh/.android/build-cache/24882511ec21988e02f9b04d8e33f1fef634f537/output/jars/classes.jar"
+        jumboMode="false"
         optimize="true"
-        revision="23.0.1"
-        sha1="c755536e5a100d9c76c8ea0b72f76c018f7a9de2">
-        <dex dex="C:\Users\Public\AndroidProjects\ocr-reader\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-recyclerview-v7-24.2.0_34b16cc608f81999ef3bcf131724cd98be559284\classes.dex" />
+        revision="25.0.0"
+        sha1="6003d64df88a6ce5e961fa2bad7f1b9b97689ac1">
+        <dex dex="/home/ajitesh/Documents/CartrackingSystem/app/build/intermediates/pre-dexed/debug/classes_2f9dc46ae6e8a3c1adcb97d1a244db40d346175b.jar" />
     </item>
     <item
-        is-multidex="true"
-        jar="C:\Users\Public\AndroidSdk\extras\android\m2repository\com\android\support\support-annotations\24.2.0\support-annotations-24.2.0.jar"
-        jumboMode="true"
+        is-multidex="false"
+        jar="/home/ajitesh/.android/build-cache/499a5fd68ddb9666bbfa1f742ef5eead2a1b0c3f/output/jars/classes.jar"
+        jumboMode="false"
         optimize="true"
-        revision="23.0.1"
-        sha1="6be858a75633b1f0a2d24cad740db57775cb6871">
-        <dex dex="C:\Users\Public\AndroidProjects\ocr-reader\app\build\intermediates\transforms\dex\debug\folders\1000\10\support-annotations-24.2.0_ffd4a6a4186af846e2ded56eec8baf4d9b33aad5\classes.dex" />
+        revision="25.0.0"
+        sha1="d4cf6227dd6a2ceff0f7dcf0c324380b7abf2c28">
+        <dex dex="/home/ajitesh/Documents/CartrackingSystem/app/build/intermediates/pre-dexed/debug/classes_082bf2c7af0cb70c7ddad6f50365e1dd017f2d29.jar" />
     </item>
     <item
-        is-multidex="true"
-        jar="C:\Users\Public\AndroidProjects\ocr-reader\app\build\intermediates\exploded-aar\com.android.support\animated-vector-drawable\24.2.0\jars\classes.jar"
-        jumboMode="true"
+        is-multidex="false"
+        jar="/home/ajitesh/.android/build-cache/08457c9b6cea8c59ed3d7b3f2211ffe3f6d87fd3/output/jars/classes.jar"
+        jumboMode="false"
         optimize="true"
-        revision="23.0.1"
-        sha1="f3ee23ef25c9a8fe3d40246d0b7097267963a612">
-        <dex dex="C:\Users\Public\AndroidProjects\ocr-reader\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-animated-vector-drawable-24.2.0_14930652ff559bc0fa02e0485a939a883403ee89\classes.dex" />
+        revision="25.0.0"
+        sha1="4a26a1154d053ab11aaf4c3967c42a4d66390991">
+        <dex dex="/home/ajitesh/Documents/CartrackingSystem/app/build/intermediates/pre-dexed/debug/classes_ddb60c2a68d2349b48d37421576d0c09e42d4af7.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/ajitesh/.gradle/caches/modules-2/files-2.1/com.squareup.picasso/picasso/2.5.2/7446d06ec8d4f7ffcc53f1da37c95f200dcb9387/picasso-2.5.2.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="7446d06ec8d4f7ffcc53f1da37c95f200dcb9387">
+        <dex dex="/home/ajitesh/Documents/CartrackingSystem/app/build/intermediates/pre-dexed/debug/picasso-2.5.2_b742bf482ff25057ded9c3261bec4b8b4ca0b387.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/ajitesh/Android/Sdk/extras/android/m2repository/com/android/support/support-annotations/25.3.1/support-annotations-25.3.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="bf8841d29fa39e077730e7a91222c2ce269fa7c9">
+        <dex dex="/home/ajitesh/Documents/CartrackingSystem/app/build/intermediates/pre-dexed/debug/support-annotations-25.3.1_d7610d0bba75c8309081d07092fffb759c269377.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/ajitesh/.android/build-cache/332be1ac0c7c29bda1239ca6482dae742ed5e983/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="da27a32db6af8954ee8061537c7d476fcb1df46f">
+        <dex dex="/home/ajitesh/Documents/CartrackingSystem/app/build/intermediates/pre-dexed/debug/classes_15459673bc6e9bca9deb2d6544509c3d2602a774.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/ajitesh/.android/build-cache/2a8d38e161e15d73114ca2d1ebf2b1e72fcca305/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="4e684205744f814a73b7752545e0661330415c9e">
+        <dex dex="/home/ajitesh/Documents/CartrackingSystem/app/build/intermediates/pre-dexed/debug/classes_03d31299fdeb8177dc7b7b2bab0dbbcfd46f9c6c.jar" />
     </item>
 
 </items>

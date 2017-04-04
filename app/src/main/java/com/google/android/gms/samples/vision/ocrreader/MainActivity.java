@@ -17,24 +17,39 @@
 package com.google.android.gms.samples.vision.ocrreader;
 
 import android.content.Intent;
+import android.database.Cursor;
+import android.database.DatabaseUtils;
+import android.graphics.Bitmap;
+import android.graphics.BitmapFactory;
+import android.net.Uri;
 import android.os.Bundle;
 import android.app.Activity;
+import android.provider.MediaStore;
 import android.util.Log;
+import android.util.SparseArray;
 import android.view.View;
-import android.widget.Button;
+import android.widget.ArrayAdapter;
 import android.widget.CompoundButton;
 import android.widget.EditText;
 import android.widget.LinearLayout;
-import android.widget.TextView;
 
-import com.google.android.gms.common.api.CommonStatusCodes;
 import com.google.android.gms.samples.vision.ocrreader.VehicleListView.VehicleListActivity;
 import com.google.android.gms.samples.vision.ocrreader.database.FraudVehicleDatabase;
 import com.google.android.gms.samples.vision.ocrreader.database.VehicleDatabase;
-import com.google.android.gms.vision.text.Line;
-import com.orm.SugarContext;
+import com.google.android.gms.vision.Frame;
+import com.google.android.gms.vision.text.TextBlock;
+import com.google.android.gms.vision.text.TextRecognizer;
+import com.mlsdev.rximagepicker.RxImageConverters;
+import com.mlsdev.rximagepicker.RxImagePicker;
+import com.mlsdev.rximagepicker.Sources;
 
-import static android.R.attr.button;
+import java.io.File;
+import java.io.IOException;
+import java.util.ArrayList;
+
+import rx.Observable;
+import rx.functions.Action1;
+import rx.functions.Func1;
 
 /**
  * Main activity demonstrating how to pass extra parameters to an activity that
@@ -48,10 +63,11 @@ public class MainActivity extends Activity implements View.OnClickListener {
     private EditText etVehicleNumber;
     private EditText etFraudVehicleNumber;
     private LinearLayout linearLayout;
-
+    ArrayList<Uri> path = new ArrayList<>();
 
     private static final int RC_OCR_CAPTURE = 9003;
     private static final String TAG = "MainActivity";
+    private String mPath;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -68,6 +84,7 @@ public class MainActivity extends Activity implements View.OnClickListener {
         findViewById(R.id.add_vehicle).setOnClickListener(this);
         findViewById(R.id.add_fraud_vehicle).setOnClickListener(this);
         findViewById(R.id.hide).setOnClickListener(this);
+        findViewById(R.id.gallery).setOnClickListener(this);
        // createFraudVehicleDatabase();
     }
 
@@ -98,7 +115,6 @@ public class MainActivity extends Activity implements View.OnClickListener {
             Intent intent = new Intent(this, OcrCaptureActivity.class);
             intent.putExtra(OcrCaptureActivity.AutoFocus, autoFocus.isChecked());
             intent.putExtra(OcrCaptureActivity.UseFlash, useFlash.isChecked());
-
             startActivityForResult(intent, RC_OCR_CAPTURE);
         }
         else if (v.getId() == R.id.show_list) {
@@ -119,6 +135,28 @@ public class MainActivity extends Activity implements View.OnClickListener {
         else if (v.getId() == R.id.hide) {
             showHide();
         }
+        else if (v.getId() == R.id.gallery) {
+            launchGallery();
+        }
+
+
+    }
+
+    private void launchGallery() {
+        RxImagePicker.with(this).requestImage(Sources.GALLERY)
+                .flatMap(new Func1<Uri, Observable<Bitmap>>() {
+                    @Override
+                    public Observable<Bitmap> call(Uri uri) {
+                        return RxImageConverters.uriToBitmap(MainActivity.this, uri);
+                    }
+                })
+                .subscribe(new Action1<Bitmap>() {
+                    @Override
+                    public void call(Bitmap bitmap) {
+                        // Do something with Bitmap
+                        ocrBitmap(bitmap);
+                    }
+                });
     }
 
     private void showHide() {
@@ -130,48 +168,32 @@ public class MainActivity extends Activity implements View.OnClickListener {
         }
     }
 
-    /**
-     * Called when an activity you launched exits, giving you the requestCode
-     * you started it with, the resultCode it returned, and any additional
-     * data from it.  The <var>resultCode</var> will be
-     * {@link #RESULT_CANCELED} if the activity explicitly returned that,
-     * didn't return any result, or crashed during its operation.
-     * <p/>
-     * <p>You will receive this call immediately before onResume() when your
-     * activity is re-starting.
-     * <p/>
-     *
-     * @param requestCode The integer request code originally supplied to
-     *                    startActivityForResult(), allowing you to identify who this
-     *                    result came from.
-     * @param resultCode  The integer result code returned by the child activity
-     *                    through its setResult().
-     * @param data        An Intent, which can return result data to the caller
-     *                    (various data can be attached to Intent "extras").
-     * @see #startActivityForResult
-     * @see #createPendingResult
-     * @see #setResult(int)
-     */
-    @Override
-    protected void onActivityResult(int requestCode, int resultCode, Intent data) {
-//        if(requestCode == RC_OCR_CAPTURE) {
-//            if (resultCode == CommonStatusCodes.SUCCESS) {
-//                if (data != null) {
-//                    String text = data.getStringExtra(OcrCaptureActivity.TextBlockObject);
-//                    statusMessage.setText(R.string.ocr_success);
-//                    textValue.setText(text);
-//                    Log.d(TAG, "Text read: " + text);
-//                } else {
-//                    statusMessage.setText(R.string.ocr_failure);
-//                    Log.d(TAG, "No Text captured, intent data is null");
-//                }
-//            } else {
-//                statusMessage.setText(String.format(getString(R.string.ocr_error),
-//                        CommonStatusCodes.getStatusCodeString(resultCode)));
-//            }
-//        }
-//        else {
-//            super.onActivityResult(requestCode, resultCode, data);
-//        }
+    private void ocrBitmap(Bitmap bitmap) {
+        Frame frame = new Frame.Builder()
+                .setBitmap(bitmap)
+                .build();
+
+        TextRecognizer textRecognizer = new TextRecognizer.Builder(MainActivity.this).build();
+
+        SparseArray<TextBlock> detectBlocks = textRecognizer.detect(frame);
+
+        for (int i = 0; i < detectBlocks.size(); ++i) {
+            TextBlock item = detectBlocks.valueAt(i);
+            Log.d("TEST",item.getValue().toString());
+            if(isVehicle(item.getValue().toString())){
+                saveToDatabase(item.getValue().toString());
+            }
+        }
+    }
+    public void saveToDatabase(String number) {
+        VehicleDatabase vehicleDatabase = new VehicleDatabase(number);
+        vehicleDatabase.save();
+    }
+
+    public boolean isVehicle(String s){
+        if((s.length()>10)&&(s.length()<16)){
+            return true;
+        }
+        return false;
     }
 }

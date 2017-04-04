@@ -1,0 +1,22 @@
+[
+    {
+        "merged": "/home/ajitesh/Documents/CartrackingSystem/app/build/intermediates/res/merged/debug/drawable-ldpi-v4/ic_add_a_photo_white_24dp.png",
+        "source": "/home/ajitesh/.android/build-cache/ead77886909600df7c8896b4addf7fbc8fc67010/output/res/drawable-ldpi-v4/ic_add_a_photo_white_24dp.png"
+    },
+    {
+        "merged": "/home/ajitesh/Documents/CartrackingSystem/app/build/intermediates/res/merged/debug/drawable-ldpi-v4/ic_photo_white_24dp.png",
+        "source": "/home/ajitesh/.android/build-cache/ead77886909600df7c8896b4addf7fbc8fc67010/output/res/drawable-ldpi-v4/ic_photo_white_24dp.png"
+    },
+    {
+        "merged": "/home/ajitesh/Documents/CartrackingSystem/app/build/intermediates/res/merged/debug/drawable-ldpi-v4/ic_done_white_24dp.png",
+        "source": "/home/ajitesh/.android/build-cache/ead77886909600df7c8896b4addf7fbc8fc67010/output/res/drawable-ldpi-v4/ic_done_white_24dp.png"
+    },
+    {
+        "merged": "/home/ajitesh/Documents/CartrackingSystem/app/build/intermediates/res/merged/debug/drawable-ldpi-v4/ic_photo_library_gray_100dp.png",
+        "source": "/home/ajitesh/.android/build-cache/ead77886909600df7c8896b4addf7fbc8fc67010/output/res/drawable-ldpi-v4/ic_photo_library_gray_100dp.png"
+    },
+    {
+        "merged": "/home/ajitesh/Documents/CartrackingSystem/app/build/intermediates/res/merged/debug/drawable-ldpi-v4/ic_add_a_photo_gray_100dp.png",
+        "source": "/home/ajitesh/.android/build-cache/ead77886909600df7c8896b4addf7fbc8fc67010/output/res/drawable-ldpi-v4/ic_add_a_photo_gray_100dp.png"
+    }
+]

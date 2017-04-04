@@ -1,14 +1,34 @@
 [
     {
-        "merged": "C:\\Users\\Public\\AndroidProjects\\ocr-reader\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v21\\abc_edit_text_material.xml",
-        "source": "C:\\Users\\Public\\AndroidProjects\\ocr-reader\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.0\\res\\drawable-v21\\abc_edit_text_material.xml"
+        "merged": "/home/ajitesh/Documents/CartrackingSystem/app/build/intermediates/res/merged/debug/drawable-v21/design_bottom_navigation_item_background.xml",
+        "source": "/home/ajitesh/.android/build-cache/eaf60c04d9addc586bcae12379124da3e127de6a/output/res/drawable-v21/design_bottom_navigation_item_background.xml"
     },
     {
-        "merged": "C:\\Users\\Public\\AndroidProjects\\ocr-reader\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v21\\abc_action_bar_item_background_material.xml",
-        "source": "C:\\Users\\Public\\AndroidProjects\\ocr-reader\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.0\\res\\drawable-v21\\abc_action_bar_item_background_material.xml"
+        "merged": "/home/ajitesh/Documents/CartrackingSystem/app/build/intermediates/res/merged/debug/drawable-v21/abc_edit_text_material.xml",
+        "source": "/home/ajitesh/.android/build-cache/28e9ecde184a06e6220d357156abbc36f605a4e2/output/res/drawable-v21/abc_edit_text_material.xml"
     },
     {
-        "merged": "C:\\Users\\Public\\AndroidProjects\\ocr-reader\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v21\\abc_btn_colored_material.xml",
-        "source": "C:\\Users\\Public\\AndroidProjects\\ocr-reader\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.0\\res\\drawable-v21\\abc_btn_colored_material.xml"
+        "merged": "/home/ajitesh/Documents/CartrackingSystem/app/build/intermediates/res/merged/debug/drawable-v21/design_password_eye.xml",
+        "source": "/home/ajitesh/.android/build-cache/eaf60c04d9addc586bcae12379124da3e127de6a/output/res/drawable-v21/design_password_eye.xml"
+    },
+    {
+        "merged": "/home/ajitesh/Documents/CartrackingSystem/app/build/intermediates/res/merged/debug/drawable-v21/avd_hide_password.xml",
+        "source": "/home/ajitesh/.android/build-cache/eaf60c04d9addc586bcae12379124da3e127de6a/output/res/drawable-v21/avd_hide_password.xml"
+    },
+    {
+        "merged": "/home/ajitesh/Documents/CartrackingSystem/app/build/intermediates/res/merged/debug/drawable-v21/abc_btn_colored_material.xml",
+        "source": "/home/ajitesh/.android/build-cache/28e9ecde184a06e6220d357156abbc36f605a4e2/output/res/drawable-v21/abc_btn_colored_material.xml"
+    },
+    {
+        "merged": "/home/ajitesh/Documents/CartrackingSystem/app/build/intermediates/res/merged/debug/drawable-v21/abc_action_bar_item_background_material.xml",
+        "source": "/home/ajitesh/.android/build-cache/28e9ecde184a06e6220d357156abbc36f605a4e2/output/res/drawable-v21/abc_action_bar_item_background_material.xml"
+    },
+    {
+        "merged": "/home/ajitesh/Documents/CartrackingSystem/app/build/intermediates/res/merged/debug/drawable-v21/notification_action_background.xml",
+        "source": "/home/ajitesh/.android/build-cache/28e9ecde184a06e6220d357156abbc36f605a4e2/output/res/drawable-v21/notification_action_background.xml"
+    },
+    {
+        "merged": "/home/ajitesh/Documents/CartrackingSystem/app/build/intermediates/res/merged/debug/drawable-v21/avd_show_password.xml",
+        "source": "/home/ajitesh/.android/build-cache/eaf60c04d9addc586bcae12379124da3e127de6a/output/res/drawable-v21/avd_show_password.xml"
     }
 ]

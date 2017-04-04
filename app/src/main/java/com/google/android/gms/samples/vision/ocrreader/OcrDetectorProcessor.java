@@ -61,7 +61,7 @@ public class OcrDetectorProcessor implements Detector.Processor<TextBlock> {
         }
     }
 
-    private void saveToDatabase(String number) {
+    public void saveToDatabase(String number) {
         VehicleDatabase vehicleDatabase = new VehicleDatabase(number);
         vehicleDatabase.save();
         Log.d("VEHICLE","onBackPressed");

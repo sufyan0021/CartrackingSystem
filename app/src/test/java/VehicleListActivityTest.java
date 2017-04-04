@@ -1,27 +1,13 @@
 
 import android.content.Context;
-import android.content.res.Configuration;
-import android.os.Build;
-import android.support.annotation.RequiresApi;
-import android.test.InstrumentationTestRunner;
 
-import com.google.android.gms.samples.vision.ocrreader.MainActivity;
 import com.google.android.gms.samples.vision.ocrreader.database.FraudVehicleDatabase;
-import com.orm.SugarApp;
 import com.orm.SugarContext;
-import com.orm.SugarRecord;
-import com.orm.util.SugarConfig;
 
-import org.junit.Before;
-import org.junit.BeforeClass;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.mockito.Mock;
-import org.mockito.Mockito;
 import org.mockito.MockitoAnnotations;
-import org.mockito.internal.configuration.MockitoAnnotationsMockAnnotationProcessor;
-import org.mockito.internal.configuration.injection.MockInjection;
-import org.mockito.junit.MockitoRule;
 import org.mockito.runners.MockitoJUnitRunner;
 
 import java.util.ArrayList;
@@ -31,7 +17,6 @@ import java.util.List;
 import static org.junit.Assert.assertArrayEquals;
 import static org.junit.Assert.assertEquals;
 import static org.junit.Assert.assertThat;
-import static org.mockito.Mockito.when;
 
 /**
  * Created by kanav on 3/9/2017.

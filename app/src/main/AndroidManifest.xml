@@ -6,6 +6,8 @@
     <uses-feature android:name="android.hardware.camera" />
 
     <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
 
     <application
         android:name="com.orm.SugarApp"
@@ -13,7 +15,6 @@
         android:fullBackupContent="false"
         android:hardwareAccelerated="true"
         android:icon="@drawable/icon"
-        android:label="Car Tracker"
         android:supportsRtl="true"
         android:theme="@style/Theme.AppCompat">
         <meta-data
@@ -44,8 +45,10 @@
         </activity>
         <activity
             android:name=".OcrCaptureActivity"
-            android:label="Read Text" />
-        <activity android:name=".VehicleListView.VehicleListActivity"></activity>
+            android:label="@string/title_activity_main" />
+        <activity
+            android:label="@string/title_activity_main"
+            android:name=".VehicleListView.VehicleListActivity"></activity>
     </application>
 
 </manifest>

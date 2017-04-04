@@ -1,0 +1,18 @@
+[
+    {
+        "merged": "/home/ajitesh/Documents/CartrackingSystem/app/build/intermediates/res/merged/debug/layout-v21/notification_template_custom_big.xml",
+        "source": "/home/ajitesh/.android/build-cache/28e9ecde184a06e6220d357156abbc36f605a4e2/output/res/layout-v21/notification_template_custom_big.xml"
+    },
+    {
+        "merged": "/home/ajitesh/Documents/CartrackingSystem/app/build/intermediates/res/merged/debug/layout-v21/notification_action_tombstone.xml",
+        "source": "/home/ajitesh/.android/build-cache/28e9ecde184a06e6220d357156abbc36f605a4e2/output/res/layout-v21/notification_action_tombstone.xml"
+    },
+    {
+        "merged": "/home/ajitesh/Documents/CartrackingSystem/app/build/intermediates/res/merged/debug/layout-v21/notification_action.xml",
+        "source": "/home/ajitesh/.android/build-cache/28e9ecde184a06e6220d357156abbc36f605a4e2/output/res/layout-v21/notification_action.xml"
+    },
+    {
+        "merged": "/home/ajitesh/Documents/CartrackingSystem/app/build/intermediates/res/merged/debug/layout-v21/notification_template_icon_group.xml",
+        "source": "/home/ajitesh/.android/build-cache/28e9ecde184a06e6220d357156abbc36f605a4e2/output/res/layout-v21/notification_template_icon_group.xml"
+    }
+]
