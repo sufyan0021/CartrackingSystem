@@ -34,6 +34,8 @@ import com.google.android.gms.samples.vision.ocrreader.database.VehicleDatabase;
 import com.google.android.gms.vision.text.Line;
 import com.orm.SugarContext;
 
+import static android.R.attr.button;
+
 /**
  * Main activity demonstrating how to pass extra parameters to an activity that
  * recognizes text.
@@ -101,6 +103,7 @@ public class MainActivity extends Activity implements View.OnClickListener {
         }
         else if (v.getId() == R.id.show_list) {
             // launch Ocr capture activity.
+
             Intent intent = new Intent(this, VehicleListActivity.class);
             startActivity(intent);
         }
