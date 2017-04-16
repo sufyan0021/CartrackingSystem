@@ -56,10 +56,16 @@
         </activity>
         <activity
             android:name="com.google.android.gms.samples.vision.ocrreader.OcrCaptureActivity"
-            android:label="@string/title_activity_main" />
+            android:label="@string/title_activity_main"
+            android:screenOrientation="portrait" />
         <activity
             android:name="com.google.android.gms.samples.vision.ocrreader.VehicleListView.VehicleListActivity"
-            android:label="@string/title_activity_main" />
+            android:label="@string/title_activity_main"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.google.android.gms.samples.vision.ocrreader.GalleryActivity"
+            android:label="@string/title_activity_main"
+            android:screenOrientation="portrait" />
         <activity
             android:name="com.google.android.gms.common.api.GoogleApiActivity"
             android:exported="false"

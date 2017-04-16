@@ -16,6 +16,7 @@
 
 package com.google.android.gms.samples.vision.ocrreader;
 
+import android.app.ProgressDialog;
 import android.content.Intent;
 import android.database.Cursor;
 import android.database.DatabaseUtils;
@@ -58,6 +59,7 @@ import rx.functions.Func1;
 public class MainActivity extends Activity implements View.OnClickListener {
 
     // Use a compound button so either checkbox or switch widgets work.
+    public static Bitmap bmp;
     private CompoundButton autoFocus;
     private CompoundButton useFlash;
     private EditText etVehicleNumber;
@@ -68,6 +70,7 @@ public class MainActivity extends Activity implements View.OnClickListener {
     private static final int RC_OCR_CAPTURE = 9003;
     private static final String TAG = "MainActivity";
     private String mPath;
+    private ProgressDialog progress;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -167,8 +170,16 @@ public class MainActivity extends Activity implements View.OnClickListener {
             linearLayout.setVisibility(View.VISIBLE);
         }
     }
+    public void showProgressDialog(){
+        progress = new ProgressDialog(this);
+        progress.setMessage("Analyzing Text");
+        progress.setProgressStyle(ProgressDialog.STYLE_HORIZONTAL);
+        progress.setIndeterminate(true);
+        progress.show();
+    }
 
     private void ocrBitmap(Bitmap bitmap) {
+        showProgressDialog();
         Frame frame = new Frame.Builder()
                 .setBitmap(bitmap)
                 .build();
@@ -184,6 +195,10 @@ public class MainActivity extends Activity implements View.OnClickListener {
                 saveToDatabase(item.getValue().toString());
             }
         }
+        bmp=bitmap;
+        progress.hide();
+        Intent intent=new Intent(this,GalleryActivity.class);
+        startActivity(intent);
     }
     public void saveToDatabase(String number) {
         VehicleDatabase vehicleDatabase = new VehicleDatabase(number);

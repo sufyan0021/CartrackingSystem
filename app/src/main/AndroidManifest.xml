@@ -6,7 +6,7 @@
     <uses-feature android:name="android.hardware.camera" />
 
     <uses-permission android:name="android.permission.CAMERA" />
-    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
     <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
 
     <application
@@ -34,9 +34,9 @@
             android:value="ocr" />
 
         <activity
-            android:screenOrientation="portrait"
             android:name=".MainActivity"
-            android:label="@string/title_activity_main">
+            android:label="@string/title_activity_main"
+            android:screenOrientation="portrait">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -44,11 +44,16 @@
             </intent-filter>
         </activity>
         <activity
+            android:screenOrientation="portrait"
             android:name=".OcrCaptureActivity"
             android:label="@string/title_activity_main" />
         <activity
+            android:screenOrientation="portrait"
+            android:name=".VehicleListView.VehicleListActivity"
+            android:label="@string/title_activity_main" />
+        <activity android:name=".GalleryActivity"
             android:label="@string/title_activity_main"
-            android:name=".VehicleListView.VehicleListActivity"></activity>
+            android:screenOrientation="portrait"></activity>
     </application>
 
 </manifest>

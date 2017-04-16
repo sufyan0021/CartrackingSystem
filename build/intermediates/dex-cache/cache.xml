@@ -3,15 +3,6 @@
 
     <item
         is-multidex="false"
-        jar="/home/ajitesh/.android/build-cache/2475a18c77822567336c95377b2cda5261c61b27/output/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.0"
-        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
-        <dex dex="/home/ajitesh/Documents/CartrackingSystem/app/build/intermediates/pre-dexed/debug/classes_079a2f44ba8f43e6861faf811fadf6f4df8a8d4a.jar" />
-    </item>
-    <item
-        is-multidex="false"
         jar="/home/ajitesh/.android/build-cache/c148b4b3504a0f155fc9709d5eb485ead6d7934b/output/jars/classes.jar"
         jumboMode="false"
         optimize="true"
@@ -27,24 +18,6 @@
         revision="25.0.0"
         sha1="bdcc2a9572f18b8c90a3a157cab6cdfc97c6c736">
         <dex dex="/home/ajitesh/Documents/CartrackingSystem/app/build/intermediates/pre-dexed/debug/classes_4ba3a61a3dea68808f547593ac1a00ab451b7142.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/home/ajitesh/.android/build-cache/eaf60c04d9addc586bcae12379124da3e127de6a/output/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.0"
-        sha1="38789e20ace9ab7dbd00554bd2673ab424478d3b">
-        <dex dex="/home/ajitesh/Documents/CartrackingSystem/app/build/intermediates/pre-dexed/debug/classes_6abefa56613885ab0c59b012405f2916f750c2d8.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/usr/local/android-studio/gradle/m2repository/com/google/guava/guava/18.0/guava-18.0.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.0"
-        sha1="cce0823396aa693798f8882e64213b1772032b09">
-        <dex dex="/home/ajitesh/Documents/CartrackingSystem/app/build/intermediates/pre-dexed/debug/guava-18.0_e40471865835b7c50372e443685283dd5acf6433.jar" />
     </item>
     <item
         is-multidex="false"
@@ -75,30 +48,12 @@
     </item>
     <item
         is-multidex="false"
-        jar="/home/ajitesh/.android/build-cache/ead77886909600df7c8896b4addf7fbc8fc67010/output/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.0"
-        sha1="67dbc6602a0eb36bd16bb2f40074456fac7cc558">
-        <dex dex="/home/ajitesh/Documents/CartrackingSystem/app/build/intermediates/pre-dexed/debug/classes_f21a910d090d14ba5becf53cb9790410ac4d802a.jar" />
-    </item>
-    <item
-        is-multidex="false"
         jar="/home/ajitesh/.android/build-cache/2f83d61533cc859db04d5eb5bfd72a01e6dd056d/output/jars/classes.jar"
         jumboMode="false"
         optimize="true"
         revision="25.0.0"
         sha1="aa81bfe8c5cc88c2472ca936ae71f0c3dd1766df">
         <dex dex="/home/ajitesh/Documents/CartrackingSystem/app/build/intermediates/pre-dexed/debug/classes_58d572d8aa8d87daf060f80e183b963564b94db8.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/home/ajitesh/.android/build-cache/eed4f87ea574dda33b9f7720b68e23f933c21ae8/output/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.0"
-        sha1="95519720620b553f63afc789beba9ad582807f7c">
-        <dex dex="/home/ajitesh/Documents/CartrackingSystem/app/build/intermediates/pre-dexed/debug/classes_2116f4a96ea7eb40d4f745aa5641d3d9804e2350.jar" />
     </item>
     <item
         is-multidex="false"
@@ -111,12 +66,12 @@
     </item>
     <item
         is-multidex="false"
-        jar="/home/ajitesh/.gradle/caches/modules-2/files-2.1/io.reactivex/rxjava/1.0.14/898f9ab61e2a23afd615f0b0389478bec86f49f9/rxjava-1.0.14.jar"
+        jar="/home/ajitesh/Android/Sdk/extras/m2repository/com/android/support/constraint/constraint-layout-solver/1.0.0-alpha9/constraint-layout-solver-1.0.0-alpha9.jar"
         jumboMode="false"
         optimize="true"
         revision="25.0.0"
-        sha1="898f9ab61e2a23afd615f0b0389478bec86f49f9">
-        <dex dex="/home/ajitesh/Documents/CartrackingSystem/app/build/intermediates/pre-dexed/debug/rxjava-1.0.14_81e8f06d012f4e5e2fe8e79934416eec12ce3f12.jar" />
+        sha1="6a908fd0803cc5f65b007101002aec06dc7544da">
+        <dex dex="/home/ajitesh/Documents/CartrackingSystem/app/build/intermediates/pre-dexed/debug/constraint-layout-solver-1.0.0-alpha9_3a2dcfc287ac4a90192d885bafb365be3d875e63.jar" />
     </item>
     <item
         is-multidex="false"
@@ -174,21 +129,66 @@
     </item>
     <item
         is-multidex="false"
+        jar="/home/ajitesh/.android/build-cache/2a8d38e161e15d73114ca2d1ebf2b1e72fcca305/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="4e684205744f814a73b7752545e0661330415c9e">
+        <dex dex="/home/ajitesh/Documents/CartrackingSystem/app/build/intermediates/pre-dexed/debug/classes_03d31299fdeb8177dc7b7b2bab0dbbcfd46f9c6c.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/ajitesh/.android/build-cache/2475a18c77822567336c95377b2cda5261c61b27/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
+        <dex dex="/home/ajitesh/Documents/CartrackingSystem/app/build/intermediates/pre-dexed/debug/classes_079a2f44ba8f43e6861faf811fadf6f4df8a8d4a.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/ajitesh/.android/build-cache/eaf60c04d9addc586bcae12379124da3e127de6a/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="38789e20ace9ab7dbd00554bd2673ab424478d3b">
+        <dex dex="/home/ajitesh/Documents/CartrackingSystem/app/build/intermediates/pre-dexed/debug/classes_6abefa56613885ab0c59b012405f2916f750c2d8.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/usr/local/android-studio/gradle/m2repository/com/google/guava/guava/18.0/guava-18.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="cce0823396aa693798f8882e64213b1772032b09">
+        <dex dex="/home/ajitesh/Documents/CartrackingSystem/app/build/intermediates/pre-dexed/debug/guava-18.0_e40471865835b7c50372e443685283dd5acf6433.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/ajitesh/.android/build-cache/eed4f87ea574dda33b9f7720b68e23f933c21ae8/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="95519720620b553f63afc789beba9ad582807f7c">
+        <dex dex="/home/ajitesh/Documents/CartrackingSystem/app/build/intermediates/pre-dexed/debug/classes_2116f4a96ea7eb40d4f745aa5641d3d9804e2350.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/ajitesh/.gradle/caches/modules-2/files-2.1/io.reactivex/rxjava/1.0.14/898f9ab61e2a23afd615f0b0389478bec86f49f9/rxjava-1.0.14.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="898f9ab61e2a23afd615f0b0389478bec86f49f9">
+        <dex dex="/home/ajitesh/Documents/CartrackingSystem/app/build/intermediates/pre-dexed/debug/rxjava-1.0.14_81e8f06d012f4e5e2fe8e79934416eec12ce3f12.jar" />
+    </item>
+    <item
+        is-multidex="false"
         jar="/home/ajitesh/.android/build-cache/08457c9b6cea8c59ed3d7b3f2211ffe3f6d87fd3/output/jars/classes.jar"
         jumboMode="false"
         optimize="true"
         revision="25.0.0"
         sha1="4a26a1154d053ab11aaf4c3967c42a4d66390991">
         <dex dex="/home/ajitesh/Documents/CartrackingSystem/app/build/intermediates/pre-dexed/debug/classes_ddb60c2a68d2349b48d37421576d0c09e42d4af7.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/home/ajitesh/.gradle/caches/modules-2/files-2.1/com.squareup.picasso/picasso/2.5.2/7446d06ec8d4f7ffcc53f1da37c95f200dcb9387/picasso-2.5.2.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.0"
-        sha1="7446d06ec8d4f7ffcc53f1da37c95f200dcb9387">
-        <dex dex="/home/ajitesh/Documents/CartrackingSystem/app/build/intermediates/pre-dexed/debug/picasso-2.5.2_b742bf482ff25057ded9c3261bec4b8b4ca0b387.jar" />
     </item>
     <item
         is-multidex="false"
@@ -210,12 +210,12 @@
     </item>
     <item
         is-multidex="false"
-        jar="/home/ajitesh/.android/build-cache/2a8d38e161e15d73114ca2d1ebf2b1e72fcca305/output/jars/classes.jar"
+        jar="/home/ajitesh/.android/build-cache/91cc7f1970284492d750cf56c81af1cbe24a7c9a/output/jars/classes.jar"
         jumboMode="false"
         optimize="true"
         revision="25.0.0"
-        sha1="4e684205744f814a73b7752545e0661330415c9e">
-        <dex dex="/home/ajitesh/Documents/CartrackingSystem/app/build/intermediates/pre-dexed/debug/classes_03d31299fdeb8177dc7b7b2bab0dbbcfd46f9c6c.jar" />
+        sha1="f2b64f6a762f61a2379d6a79af03e2ee56eefe0b">
+        <dex dex="/home/ajitesh/Documents/CartrackingSystem/app/build/intermediates/pre-dexed/debug/classes_b049f69e1805c7063f6b3aa19636e32876319783.jar" />
     </item>
 
 </items>

@@ -40,6 +40,10 @@
         "source": "/home/ajitesh/.android/build-cache/28e9ecde184a06e6220d357156abbc36f605a4e2/output/res/layout/abc_screen_simple.xml"
     },
     {
+        "merged": "/home/ajitesh/Documents/CartrackingSystem/app/build/intermediates/res/merged/debug/layout/activity_gallery.xml",
+        "source": "/home/ajitesh/Documents/CartrackingSystem/app/src/main/res/layout/activity_gallery.xml"
+    },
+    {
         "merged": "/home/ajitesh/Documents/CartrackingSystem/app/build/intermediates/res/merged/debug/layout/abc_alert_dialog_material.xml",
         "source": "/home/ajitesh/.android/build-cache/28e9ecde184a06e6220d357156abbc36f605a4e2/output/res/layout/abc_alert_dialog_material.xml"
     },
