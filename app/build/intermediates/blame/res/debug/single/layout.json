@@ -48,6 +48,10 @@
         "source": "/home/ajitesh/.android/build-cache/28e9ecde184a06e6220d357156abbc36f605a4e2/output/res/layout/abc_alert_dialog_material.xml"
     },
     {
+        "merged": "/home/ajitesh/Documents/CartrackingSystem/app/build/intermediates/res/merged/debug/layout/activity_vehicle_details.xml",
+        "source": "/home/ajitesh/Documents/CartrackingSystem/app/src/main/res/layout/activity_vehicle_details.xml"
+    },
+    {
         "merged": "/home/ajitesh/Documents/CartrackingSystem/app/build/intermediates/res/merged/debug/layout/abc_activity_chooser_view_list_item.xml",
         "source": "/home/ajitesh/.android/build-cache/28e9ecde184a06e6220d357156abbc36f605a4e2/output/res/layout/abc_activity_chooser_view_list_item.xml"
     },
@@ -60,16 +64,20 @@
         "source": "/home/ajitesh/.android/build-cache/eaf60c04d9addc586bcae12379124da3e127de6a/output/res/layout/design_layout_tab_text.xml"
     },
     {
-        "merged": "/home/ajitesh/Documents/CartrackingSystem/app/build/intermediates/res/merged/debug/layout/design_navigation_item_separator.xml",
-        "source": "/home/ajitesh/.android/build-cache/eaf60c04d9addc586bcae12379124da3e127de6a/output/res/layout/design_navigation_item_separator.xml"
+        "merged": "/home/ajitesh/Documents/CartrackingSystem/app/build/intermediates/res/merged/debug/layout/activity_main.xml",
+        "source": "/home/ajitesh/Documents/CartrackingSystem/app/src/main/res/layout/activity_main.xml"
+    },
+    {
+        "merged": "/home/ajitesh/Documents/CartrackingSystem/app/build/intermediates/res/merged/debug/layout/design_navigation_item.xml",
+        "source": "/home/ajitesh/.android/build-cache/eaf60c04d9addc586bcae12379124da3e127de6a/output/res/layout/design_navigation_item.xml"
     },
     {
         "merged": "/home/ajitesh/Documents/CartrackingSystem/app/build/intermediates/res/merged/debug/layout/ocr_capture.xml",
         "source": "/home/ajitesh/Documents/CartrackingSystem/app/src/main/res/layout/ocr_capture.xml"
     },
     {
-        "merged": "/home/ajitesh/Documents/CartrackingSystem/app/build/intermediates/res/merged/debug/layout/design_navigation_item.xml",
-        "source": "/home/ajitesh/.android/build-cache/eaf60c04d9addc586bcae12379124da3e127de6a/output/res/layout/design_navigation_item.xml"
+        "merged": "/home/ajitesh/Documents/CartrackingSystem/app/build/intermediates/res/merged/debug/layout/design_navigation_item_separator.xml",
+        "source": "/home/ajitesh/.android/build-cache/eaf60c04d9addc586bcae12379124da3e127de6a/output/res/layout/design_navigation_item_separator.xml"
     },
     {
         "merged": "/home/ajitesh/Documents/CartrackingSystem/app/build/intermediates/res/merged/debug/layout/design_navigation_item_header.xml",

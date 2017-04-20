@@ -1,6 +1,6 @@
 -- Merging decision tree log ---
 manifest
-ADDED from /home/ajitesh/Documents/CartrackingSystem/app/src/main/AndroidManifest.xml:2:1-59:12
+ADDED from /home/ajitesh/Documents/CartrackingSystem/app/src/main/AndroidManifest.xml:2:1-64:12
 	package
 		ADDED from /home/ajitesh/Documents/CartrackingSystem/app/src/main/AndroidManifest.xml:3:5-62
 		INJECTED from /home/ajitesh/Documents/CartrackingSystem/app/src/main/AndroidManifest.xml
@@ -19,21 +19,29 @@ uses-feature#android.hardware.camera
 ADDED from /home/ajitesh/Documents/CartrackingSystem/app/src/main/AndroidManifest.xml:6:5-60
 	android:name
 		ADDED from /home/ajitesh/Documents/CartrackingSystem/app/src/main/AndroidManifest.xml:6:19-57
+uses-permission#android.permission.INTERNET
+ADDED from /home/ajitesh/Documents/CartrackingSystem/app/src/main/AndroidManifest.xml:7:5-67
+	android:name
+		ADDED from /home/ajitesh/Documents/CartrackingSystem/app/src/main/AndroidManifest.xml:7:22-64
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from /home/ajitesh/Documents/CartrackingSystem/app/src/main/AndroidManifest.xml:8:5-79
+	android:name
+		ADDED from /home/ajitesh/Documents/CartrackingSystem/app/src/main/AndroidManifest.xml:8:22-76
 uses-permission#android.permission.CAMERA
-ADDED from /home/ajitesh/Documents/CartrackingSystem/app/src/main/AndroidManifest.xml:8:5-65
+ADDED from /home/ajitesh/Documents/CartrackingSystem/app/src/main/AndroidManifest.xml:9:5-65
 	android:name
-		ADDED from /home/ajitesh/Documents/CartrackingSystem/app/src/main/AndroidManifest.xml:8:22-62
+		ADDED from /home/ajitesh/Documents/CartrackingSystem/app/src/main/AndroidManifest.xml:9:22-62
 uses-permission#android.permission.READ_EXTERNAL_STORAGE
-ADDED from /home/ajitesh/Documents/CartrackingSystem/app/src/main/AndroidManifest.xml:9:5-80
+ADDED from /home/ajitesh/Documents/CartrackingSystem/app/src/main/AndroidManifest.xml:10:5-80
 	android:name
-		ADDED from /home/ajitesh/Documents/CartrackingSystem/app/src/main/AndroidManifest.xml:9:22-77
+		ADDED from /home/ajitesh/Documents/CartrackingSystem/app/src/main/AndroidManifest.xml:10:22-77
 uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
-ADDED from /home/ajitesh/Documents/CartrackingSystem/app/src/main/AndroidManifest.xml:10:5-81
+ADDED from /home/ajitesh/Documents/CartrackingSystem/app/src/main/AndroidManifest.xml:11:5-81
 MERGED from [com.mlsdev.rximagepicker:library:1.3.1] /home/ajitesh/.android/build-cache/0f7e02d8317126eb6617de51aa8e5d5ea4e6c1e0/output/AndroidManifest.xml:11:5-81
 	android:name
-		ADDED from /home/ajitesh/Documents/CartrackingSystem/app/src/main/AndroidManifest.xml:10:22-78
+		ADDED from /home/ajitesh/Documents/CartrackingSystem/app/src/main/AndroidManifest.xml:11:22-78
 application
-ADDED from /home/ajitesh/Documents/CartrackingSystem/app/src/main/AndroidManifest.xml:12:5-57:19
+ADDED from /home/ajitesh/Documents/CartrackingSystem/app/src/main/AndroidManifest.xml:13:5-62:19
 MERGED from [com.google.android.gms:play-services-vision:10.2.1] /home/ajitesh/.android/build-cache/2a8d38e161e15d73114ca2d1ebf2b1e72fcca305/output/AndroidManifest.xml:4:5-19
 MERGED from [com.google.android.gms:play-services-base:10.2.1] /home/ajitesh/.android/build-cache/c148b4b3504a0f155fc9709d5eb485ead6d7934b/output/AndroidManifest.xml:18:5-20:19
 MERGED from [com.google.android.gms:play-services-tasks:10.2.1] /home/ajitesh/.android/build-cache/24882511ec21988e02f9b04d8e33f1fef634f537/output/AndroidManifest.xml:4:5-19
@@ -51,94 +59,103 @@ MERGED from [com.android.support:animated-vector-drawable:25.3.1] /home/ajitesh/
 MERGED from [com.android.support:support-vector-drawable:25.3.1] /home/ajitesh/.android/build-cache/e982b69cdf0db94828c0cf449dc0640696e4edfd/output/AndroidManifest.xml:26:5-20
 MERGED from [com.android.support:support-compat:25.3.1] /home/ajitesh/.android/build-cache/332be1ac0c7c29bda1239ca6482dae742ed5e983/output/AndroidManifest.xml:29:5-20
 MERGED from [com.android.support.constraint:constraint-layout:1.0.0-alpha9] /home/ajitesh/.android/build-cache/91cc7f1970284492d750cf56c81af1cbe24a7c9a/output/AndroidManifest.xml:9:5-20
+MERGED from [com.android.volley:volley:1.0.0] /home/ajitesh/.android/build-cache/3d8d969215a5ce7d1913e86fbdc7e2f02c4b6546/output/AndroidManifest.xml:9:5-20
 	android:supportsRtl
-		ADDED from /home/ajitesh/Documents/CartrackingSystem/app/src/main/AndroidManifest.xml:18:9-35
+		ADDED from /home/ajitesh/Documents/CartrackingSystem/app/src/main/AndroidManifest.xml:19:9-35
 	android:label
 		ADDED from [com.mlsdev.rximagepicker:library:1.3.1] /home/ajitesh/.android/build-cache/0f7e02d8317126eb6617de51aa8e5d5ea4e6c1e0/output/AndroidManifest.xml:15:9-41
 	android:hardwareAccelerated
-		ADDED from /home/ajitesh/Documents/CartrackingSystem/app/src/main/AndroidManifest.xml:16:9-43
+		ADDED from /home/ajitesh/Documents/CartrackingSystem/app/src/main/AndroidManifest.xml:17:9-43
 	android:fullBackupContent
-		ADDED from /home/ajitesh/Documents/CartrackingSystem/app/src/main/AndroidManifest.xml:15:9-42
+		ADDED from /home/ajitesh/Documents/CartrackingSystem/app/src/main/AndroidManifest.xml:16:9-42
 	android:allowBackup
-		ADDED from /home/ajitesh/Documents/CartrackingSystem/app/src/main/AndroidManifest.xml:14:9-35
+		ADDED from /home/ajitesh/Documents/CartrackingSystem/app/src/main/AndroidManifest.xml:15:9-35
 	android:icon
-		ADDED from /home/ajitesh/Documents/CartrackingSystem/app/src/main/AndroidManifest.xml:17:9-38
+		ADDED from /home/ajitesh/Documents/CartrackingSystem/app/src/main/AndroidManifest.xml:18:9-38
 	android:theme
-		ADDED from /home/ajitesh/Documents/CartrackingSystem/app/src/main/AndroidManifest.xml:19:9-47
+		ADDED from /home/ajitesh/Documents/CartrackingSystem/app/src/main/AndroidManifest.xml:20:9-47
 	android:name
-		ADDED from /home/ajitesh/Documents/CartrackingSystem/app/src/main/AndroidManifest.xml:13:9-40
+		ADDED from /home/ajitesh/Documents/CartrackingSystem/app/src/main/AndroidManifest.xml:14:9-40
 meta-data#VEHICLE_DATABASE
-ADDED from /home/ajitesh/Documents/CartrackingSystem/app/src/main/AndroidManifest.xml:20:9-22:43
+ADDED from /home/ajitesh/Documents/CartrackingSystem/app/src/main/AndroidManifest.xml:21:9-23:43
 	android:value
-		ADDED from /home/ajitesh/Documents/CartrackingSystem/app/src/main/AndroidManifest.xml:22:13-40
+		ADDED from /home/ajitesh/Documents/CartrackingSystem/app/src/main/AndroidManifest.xml:23:13-40
 	android:name
-		ADDED from /home/ajitesh/Documents/CartrackingSystem/app/src/main/AndroidManifest.xml:21:13-44
+		ADDED from /home/ajitesh/Documents/CartrackingSystem/app/src/main/AndroidManifest.xml:22:13-44
 meta-data#VERSION
-ADDED from /home/ajitesh/Documents/CartrackingSystem/app/src/main/AndroidManifest.xml:23:9-25:33
+ADDED from /home/ajitesh/Documents/CartrackingSystem/app/src/main/AndroidManifest.xml:24:9-26:33
 	android:value
-		ADDED from /home/ajitesh/Documents/CartrackingSystem/app/src/main/AndroidManifest.xml:25:13-30
+		ADDED from /home/ajitesh/Documents/CartrackingSystem/app/src/main/AndroidManifest.xml:26:13-30
 	android:name
-		ADDED from /home/ajitesh/Documents/CartrackingSystem/app/src/main/AndroidManifest.xml:24:13-35
+		ADDED from /home/ajitesh/Documents/CartrackingSystem/app/src/main/AndroidManifest.xml:25:13-35
 meta-data#QUERY_LOG
-ADDED from /home/ajitesh/Documents/CartrackingSystem/app/src/main/AndroidManifest.xml:26:9-28:36
+ADDED from /home/ajitesh/Documents/CartrackingSystem/app/src/main/AndroidManifest.xml:27:9-29:36
 	android:value
-		ADDED from /home/ajitesh/Documents/CartrackingSystem/app/src/main/AndroidManifest.xml:28:13-33
+		ADDED from /home/ajitesh/Documents/CartrackingSystem/app/src/main/AndroidManifest.xml:29:13-33
 	android:name
-		ADDED from /home/ajitesh/Documents/CartrackingSystem/app/src/main/AndroidManifest.xml:27:13-37
+		ADDED from /home/ajitesh/Documents/CartrackingSystem/app/src/main/AndroidManifest.xml:28:13-37
 meta-data#DOMAIN_PACKAGE_NAME
-ADDED from /home/ajitesh/Documents/CartrackingSystem/app/src/main/AndroidManifest.xml:29:9-31:88
+ADDED from /home/ajitesh/Documents/CartrackingSystem/app/src/main/AndroidManifest.xml:30:9-32:88
 	android:value
-		ADDED from /home/ajitesh/Documents/CartrackingSystem/app/src/main/AndroidManifest.xml:31:13-85
+		ADDED from /home/ajitesh/Documents/CartrackingSystem/app/src/main/AndroidManifest.xml:32:13-85
 	android:name
-		ADDED from /home/ajitesh/Documents/CartrackingSystem/app/src/main/AndroidManifest.xml:30:13-47
+		ADDED from /home/ajitesh/Documents/CartrackingSystem/app/src/main/AndroidManifest.xml:31:13-47
 meta-data#com.google.android.gms.vision.DEPENDENCIES
-ADDED from /home/ajitesh/Documents/CartrackingSystem/app/src/main/AndroidManifest.xml:32:9-34:35
+ADDED from /home/ajitesh/Documents/CartrackingSystem/app/src/main/AndroidManifest.xml:33:9-35:35
 	android:value
-		ADDED from /home/ajitesh/Documents/CartrackingSystem/app/src/main/AndroidManifest.xml:34:13-32
+		ADDED from /home/ajitesh/Documents/CartrackingSystem/app/src/main/AndroidManifest.xml:35:13-32
 	android:name
-		ADDED from /home/ajitesh/Documents/CartrackingSystem/app/src/main/AndroidManifest.xml:33:13-70
+		ADDED from /home/ajitesh/Documents/CartrackingSystem/app/src/main/AndroidManifest.xml:34:13-70
 activity#com.google.android.gms.samples.vision.ocrreader.MainActivity
-ADDED from /home/ajitesh/Documents/CartrackingSystem/app/src/main/AndroidManifest.xml:36:9-45:20
+ADDED from /home/ajitesh/Documents/CartrackingSystem/app/src/main/AndroidManifest.xml:37:9-46:20
 	android:screenOrientation
-		ADDED from /home/ajitesh/Documents/CartrackingSystem/app/src/main/AndroidManifest.xml:39:13-49
+		ADDED from /home/ajitesh/Documents/CartrackingSystem/app/src/main/AndroidManifest.xml:40:13-49
 	android:label
-		ADDED from /home/ajitesh/Documents/CartrackingSystem/app/src/main/AndroidManifest.xml:38:13-56
+		ADDED from /home/ajitesh/Documents/CartrackingSystem/app/src/main/AndroidManifest.xml:39:13-56
 	android:name
-		ADDED from /home/ajitesh/Documents/CartrackingSystem/app/src/main/AndroidManifest.xml:37:13-41
+		ADDED from /home/ajitesh/Documents/CartrackingSystem/app/src/main/AndroidManifest.xml:38:13-41
 intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
-ADDED from /home/ajitesh/Documents/CartrackingSystem/app/src/main/AndroidManifest.xml:40:13-44:29
+ADDED from /home/ajitesh/Documents/CartrackingSystem/app/src/main/AndroidManifest.xml:41:13-45:29
 action#android.intent.action.MAIN
-ADDED from /home/ajitesh/Documents/CartrackingSystem/app/src/main/AndroidManifest.xml:41:17-69
+ADDED from /home/ajitesh/Documents/CartrackingSystem/app/src/main/AndroidManifest.xml:42:17-69
 	android:name
-		ADDED from /home/ajitesh/Documents/CartrackingSystem/app/src/main/AndroidManifest.xml:41:25-66
+		ADDED from /home/ajitesh/Documents/CartrackingSystem/app/src/main/AndroidManifest.xml:42:25-66
 category#android.intent.category.LAUNCHER
-ADDED from /home/ajitesh/Documents/CartrackingSystem/app/src/main/AndroidManifest.xml:43:17-77
+ADDED from /home/ajitesh/Documents/CartrackingSystem/app/src/main/AndroidManifest.xml:44:17-77
 	android:name
-		ADDED from /home/ajitesh/Documents/CartrackingSystem/app/src/main/AndroidManifest.xml:43:27-74
+		ADDED from /home/ajitesh/Documents/CartrackingSystem/app/src/main/AndroidManifest.xml:44:27-74
 activity#com.google.android.gms.samples.vision.ocrreader.OcrCaptureActivity
-ADDED from /home/ajitesh/Documents/CartrackingSystem/app/src/main/AndroidManifest.xml:46:9-49:59
+ADDED from /home/ajitesh/Documents/CartrackingSystem/app/src/main/AndroidManifest.xml:47:9-50:52
 	android:screenOrientation
-		ADDED from /home/ajitesh/Documents/CartrackingSystem/app/src/main/AndroidManifest.xml:47:13-49
+		ADDED from /home/ajitesh/Documents/CartrackingSystem/app/src/main/AndroidManifest.xml:50:13-49
 	android:label
 		ADDED from /home/ajitesh/Documents/CartrackingSystem/app/src/main/AndroidManifest.xml:49:13-56
 	android:name
 		ADDED from /home/ajitesh/Documents/CartrackingSystem/app/src/main/AndroidManifest.xml:48:13-47
 activity#com.google.android.gms.samples.vision.ocrreader.VehicleListView.VehicleListActivity
-ADDED from /home/ajitesh/Documents/CartrackingSystem/app/src/main/AndroidManifest.xml:50:9-53:59
+ADDED from /home/ajitesh/Documents/CartrackingSystem/app/src/main/AndroidManifest.xml:51:9-54:52
 	android:screenOrientation
-		ADDED from /home/ajitesh/Documents/CartrackingSystem/app/src/main/AndroidManifest.xml:51:13-49
+		ADDED from /home/ajitesh/Documents/CartrackingSystem/app/src/main/AndroidManifest.xml:54:13-49
 	android:label
 		ADDED from /home/ajitesh/Documents/CartrackingSystem/app/src/main/AndroidManifest.xml:53:13-56
 	android:name
 		ADDED from /home/ajitesh/Documents/CartrackingSystem/app/src/main/AndroidManifest.xml:52:13-64
 activity#com.google.android.gms.samples.vision.ocrreader.GalleryActivity
-ADDED from /home/ajitesh/Documents/CartrackingSystem/app/src/main/AndroidManifest.xml:54:9-56:61
+ADDED from /home/ajitesh/Documents/CartrackingSystem/app/src/main/AndroidManifest.xml:55:9-58:52
 	android:screenOrientation
-		ADDED from /home/ajitesh/Documents/CartrackingSystem/app/src/main/AndroidManifest.xml:56:13-49
+		ADDED from /home/ajitesh/Documents/CartrackingSystem/app/src/main/AndroidManifest.xml:58:13-49
 	android:label
-		ADDED from /home/ajitesh/Documents/CartrackingSystem/app/src/main/AndroidManifest.xml:55:13-56
+		ADDED from /home/ajitesh/Documents/CartrackingSystem/app/src/main/AndroidManifest.xml:57:13-56
 	android:name
-		ADDED from /home/ajitesh/Documents/CartrackingSystem/app/src/main/AndroidManifest.xml:54:19-50
+		ADDED from /home/ajitesh/Documents/CartrackingSystem/app/src/main/AndroidManifest.xml:56:13-44
+activity#com.google.android.gms.samples.vision.ocrreader.VehicleDetails
+ADDED from /home/ajitesh/Documents/CartrackingSystem/app/src/main/AndroidManifest.xml:59:9-61:62
+	android:screenOrientation
+		ADDED from /home/ajitesh/Documents/CartrackingSystem/app/src/main/AndroidManifest.xml:61:13-49
+	android:label
+		ADDED from /home/ajitesh/Documents/CartrackingSystem/app/src/main/AndroidManifest.xml:60:13-56
+	android:name
+		ADDED from /home/ajitesh/Documents/CartrackingSystem/app/src/main/AndroidManifest.xml:59:19-49
 uses-sdk
 INJECTED from /home/ajitesh/Documents/CartrackingSystem/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
 MERGED from [com.google.android.gms:play-services-vision:10.2.1] /home/ajitesh/.android/build-cache/2a8d38e161e15d73114ca2d1ebf2b1e72fcca305/output/AndroidManifest.xml:3:5-43
@@ -161,6 +178,7 @@ MERGED from [com.android.support:animated-vector-drawable:25.3.1] /home/ajitesh/
 MERGED from [com.android.support:support-vector-drawable:25.3.1] /home/ajitesh/.android/build-cache/e982b69cdf0db94828c0cf449dc0640696e4edfd/output/AndroidManifest.xml:20:5-43
 MERGED from [com.android.support:support-compat:25.3.1] /home/ajitesh/.android/build-cache/332be1ac0c7c29bda1239ca6482dae742ed5e983/output/AndroidManifest.xml:21:5-23:58
 MERGED from [com.android.support.constraint:constraint-layout:1.0.0-alpha9] /home/ajitesh/.android/build-cache/91cc7f1970284492d750cf56c81af1cbe24a7c9a/output/AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.volley:volley:1.0.0] /home/ajitesh/.android/build-cache/3d8d969215a5ce7d1913e86fbdc7e2f02c4b6546/output/AndroidManifest.xml:7:5-43
 	tools:overrideLibrary
 		ADDED from [com.android.support:design:25.3.1] /home/ajitesh/.android/build-cache/eaf60c04d9addc586bcae12379124da3e127de6a/output/AndroidManifest.xml:23:9-59
 	android:targetSdkVersion

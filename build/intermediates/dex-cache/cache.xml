@@ -183,6 +183,15 @@
     </item>
     <item
         is-multidex="false"
+        jar="/home/ajitesh/.android/build-cache/3d8d969215a5ce7d1913e86fbdc7e2f02c4b6546/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="2cd4b982617e544728de0782d718a58ce1b06e3f">
+        <dex dex="/home/ajitesh/Documents/CartrackingSystem/app/build/intermediates/pre-dexed/debug/classes_1cd0b3db738e547d8ee0864788afc0de60add758.jar" />
+    </item>
+    <item
+        is-multidex="false"
         jar="/home/ajitesh/.android/build-cache/08457c9b6cea8c59ed3d7b3f2211ffe3f6d87fd3/output/jars/classes.jar"
         jumboMode="false"
         optimize="true"

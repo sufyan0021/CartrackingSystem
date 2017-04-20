@@ -46,7 +46,9 @@ import com.mlsdev.rximagepicker.Sources;
 
 import java.io.File;
 import java.io.IOException;
+import java.text.DateFormat;
 import java.util.ArrayList;
+import java.util.Date;
 
 import rx.Observable;
 import rx.functions.Action1;
@@ -102,7 +104,8 @@ public class MainActivity extends Activity implements View.OnClickListener {
     }
 
     private void saveNumber(String number){
-        VehicleDatabase vehicleDatabase=new VehicleDatabase(number);
+        String currentDateTimeString = DateFormat.getDateTimeInstance().format(new Date());
+        VehicleDatabase vehicleDatabase=new VehicleDatabase(number,currentDateTimeString);
         vehicleDatabase.save();
     }
 
@@ -201,7 +204,8 @@ public class MainActivity extends Activity implements View.OnClickListener {
         startActivity(intent);
     }
     public void saveToDatabase(String number) {
-        VehicleDatabase vehicleDatabase = new VehicleDatabase(number);
+        String currentDateTimeString = DateFormat.getDateTimeInstance().format(new Date());
+        VehicleDatabase vehicleDatabase = new VehicleDatabase(number,currentDateTimeString);
         vehicleDatabase.save();
     }
 

@@ -61,6 +61,7 @@ public class MyVehicleRecyclerViewAdapter extends RecyclerView.Adapter<MyVehicle
         else{
             holder.mIdView.setTextColor(Color.parseColor("#ffffff"));
         }
+        holder.mContentView.setText(mValues.get(position).getTime());
         holder.mView.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {

@@ -14,12 +14,14 @@ public class VehicleDatabase extends SugarRecord{
     String ownerName;
     String brandName;
     String engineNumber;
+    String time;
 
     public VehicleDatabase(){
     }
 
-    public VehicleDatabase(String number) {
+    public VehicleDatabase(String number, String time) {
         this.number = number;
+        this.time = time;
     }
 
     public VehicleDatabase(String number, String brandName, String ownerName, String engineNumber) {
@@ -39,6 +41,10 @@ public class VehicleDatabase extends SugarRecord{
 
     public String getNumber() {
         return number;
+    }
+
+    public String getTime() {
+        return time;
     }
 
     public String getOwnerName() {
