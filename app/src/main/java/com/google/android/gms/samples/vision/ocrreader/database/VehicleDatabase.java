@@ -16,6 +16,7 @@ public class VehicleDatabase extends SugarRecord{
     String engineNumber;
     String time;
 
+    /*<vehicleJson>{"Description":"FORD FUSION ","RegistrationYear":"2009","CarMake":{"CurrentTextValue":"FORD"},"CarModel":{"CurrentTextValue":"FUSION"},"EngineSize":{"CurrentTextValue":"1596"},"MakeDescription":{"CurrentTextValue":"FORD"},"ModelDescription":{"CurrentTextValue":"FUSION"},"VechileIdentificationNumber":"MAJBXXMRJB9E44727","NumberOfSeats":{"CurrentTextValue":"5"},"Colour":"MORELLO","EngineNumber":"MAJBXXMRJB9E44727","FuelType":{"CurrentTextValue":"DIESEL"},"RegistrationDate":"22/2/2010","Location":"RTO JAMMU","ImageUrl":"http://in.carregistrationapi.com/image.aspx/@Rk9SRCBGVVNJT04g"}</vehicleJson>*/
     public VehicleDatabase(){
     }
 
