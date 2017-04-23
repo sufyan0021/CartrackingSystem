@@ -22,6 +22,7 @@ import android.database.Cursor;
 import android.database.DatabaseUtils;
 import android.graphics.Bitmap;
 import android.graphics.BitmapFactory;
+import android.graphics.Rect;
 import android.net.Uri;
 import android.os.Bundle;
 import android.app.Activity;
@@ -38,6 +39,8 @@ import com.google.android.gms.samples.vision.ocrreader.VehicleListView.VehicleLi
 import com.google.android.gms.samples.vision.ocrreader.database.FraudVehicleDatabase;
 import com.google.android.gms.samples.vision.ocrreader.database.VehicleDatabase;
 import com.google.android.gms.vision.Frame;
+import com.google.android.gms.vision.text.Element;
+import com.google.android.gms.vision.text.Line;
 import com.google.android.gms.vision.text.TextBlock;
 import com.google.android.gms.vision.text.TextRecognizer;
 import com.mlsdev.rximagepicker.RxImageConverters;
@@ -49,6 +52,7 @@ import java.io.IOException;
 import java.text.DateFormat;
 import java.util.ArrayList;
 import java.util.Date;
+import java.util.List;
 
 import rx.Observable;
 import rx.functions.Action1;
@@ -68,6 +72,7 @@ public class MainActivity extends Activity implements View.OnClickListener {
     private EditText etFraudVehicleNumber;
     private LinearLayout linearLayout;
     ArrayList<Uri> path = new ArrayList<>();
+    public static List<Rect> rects;
 
     private static final int RC_OCR_CAPTURE = 9003;
     private static final String TAG = "MainActivity";
@@ -91,6 +96,7 @@ public class MainActivity extends Activity implements View.OnClickListener {
         findViewById(R.id.hide).setOnClickListener(this);
         findViewById(R.id.gallery).setOnClickListener(this);
        // createFraudVehicleDatabase();
+        rects=new ArrayList<>();
     }
 
     private void createFraudVehicleDatabase() {
@@ -191,8 +197,18 @@ public class MainActivity extends Activity implements View.OnClickListener {
 
         SparseArray<TextBlock> detectBlocks = textRecognizer.detect(frame);
 
+        rects.clear();
         for (int i = 0; i < detectBlocks.size(); ++i) {
             TextBlock item = detectBlocks.valueAt(i);
+//            rects.add(item.getBoundingBox());
+            List<Line> lineList= (List<Line>) item.getComponents();
+            for(int x=0;x<lineList.size();x++){
+//                rects.add(lineList.get(x).getBoundingBox());
+                List<Element> elements= (List<Element>) lineList.get(x).getComponents();
+                for(int y=0;y<elements.size();y++) {
+                    rects.add(elements.get(y).getBoundingBox());
+                }
+            }
             Log.d("TEST",item.getValue().toString());
             if(isVehicle(item.getValue().toString())){
                 saveToDatabase(item.getValue().toString());
@@ -210,7 +226,7 @@ public class MainActivity extends Activity implements View.OnClickListener {
     }
 
     public boolean isVehicle(String s){
-        if((s.length()>10)&&(s.length()<16)){
+        if((s.length()>8)&&(s.length()<16)){
             return true;
         }
         return false;

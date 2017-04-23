@@ -1,5 +1,6 @@
 package com.google.android.gms.samples.vision.ocrreader;
 
+import android.content.Intent;
 import android.graphics.Bitmap;
 import android.graphics.Color;
 import android.graphics.ColorMatrix;
@@ -7,11 +8,14 @@ import android.graphics.ColorMatrixColorFilter;
 import android.media.Image;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.view.View;
+import android.widget.Button;
 import android.widget.ImageView;
 
 public class GalleryActivity extends AppCompatActivity {
 
-    ImageView img1,img2,img3,img4;
+    ImageView img1,img2,img3;
+    Button button;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -20,13 +24,19 @@ public class GalleryActivity extends AppCompatActivity {
         img1=(ImageView)findViewById(R.id.image1);
         img2=(ImageView)findViewById(R.id.image2);
         img3=(ImageView)findViewById(R.id.image3);
-        img4=(ImageView)findViewById(R.id.image4);
+        button=(Button) findViewById(R.id.button);
         Bitmap bitmap=createContrast(MainActivity.bmp,50);
         img1.setImageBitmap(MainActivity.bmp);
         img2.setImageBitmap(bitmap);
         img3.setImageBitmap(toBinary(bitmap));
-//        img3.setImageBitmap(createContrast(MainActivity.bmp,25));
-//        img4.setImageBitmap(createContrast(MainActivity.bmp,10));
+        img3.setImageBitmap(createContrast(MainActivity.bmp,25));
+        button.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent=new Intent(GalleryActivity.this,SegmentationPictureActivity.class);
+                startActivity(intent);
+            }
+        });
     }
 
     public Bitmap toBinary(Bitmap bmpOriginal) {

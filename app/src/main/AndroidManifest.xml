@@ -4,6 +4,7 @@
     android:installLocation="auto">
 
     <uses-feature android:name="android.hardware.camera" />
+
     <uses-permission android:name="android.permission.INTERNET" />
     <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
     <uses-permission android:name="android.permission.CAMERA" />
@@ -56,9 +57,13 @@
             android:name=".GalleryActivity"
             android:label="@string/title_activity_main"
             android:screenOrientation="portrait" />
-        <activity android:name=".VehicleDetails"
+        <activity
+            android:name=".VehicleDetails"
             android:label="@string/title_activity_main"
-            android:screenOrientation="portrait" ></activity>
+            android:screenOrientation="portrait" />
+        <activity android:name=".SegmentationPictureActivity"
+            android:label="@string/title_activity_main"
+            android:screenOrientation="portrait"/>
     </application>
 
 </manifest>
